@@ -1,0 +1,101 @@
+body {
+  font-family:"roboto";
+  display:flex;
+  flex-direction:column;
+  flex: 1 1 0px;
+}
+
+
+
+header {
+  display:flex;
+  flex-flow:row wrap;
+  flex-direction:row;
+  justify-content:flex-end;
+}
+
+.wrapper-header {
+  display:flex;
+  justify-content:space-between;
+  flex:1;
+}
+
+.header-logo {
+  justify-self:flex-start;
+  margin-left: 140px;
+  margin-top:-5px;
+}
+
+ul {
+  list-style-type: none;
+  justify-items: space-between;
+  gap: 20px;
+  margin-right:120px;
+  font-size:15px;
+}
+
+.links {
+  display: flex;
+  justify-items:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first-section {
+  background-color: red;
+  height: 250px;
+}
+
+.second-section {
+  background-color: blue;
+  height: 230px;
+}
+
+.third-section {
+  background-color: green;
+  height: 220px;
+}
+
+.fourth-section {
+  background-color: indigo;
+  height: 200px;
+}
+
+.fifth-section {
+  background-color: yellow;
+  height: 60px;
+}
