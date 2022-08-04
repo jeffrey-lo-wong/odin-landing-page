@@ -5,6 +5,7 @@ body {
   flex: 1 1 0px;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .first-section {
@@ -46,20 +47,26 @@ ul {
   justify-items:right;
 }
 
+a {
+  text-decoration: none;
+  color:#e5e7eb;
+  font-family: 'Roboto', sans-serif;
+}
+
 .sign-up {
   display:flex;
   justify-content:center;
   align-items: center;
+  gap: 40px;
 }
 
 .first-text {
   width:300px;
-  margin-right:10%;
 }
 
 img {
-  height:160px;
-  width: 30%;
+  height: auto;
+  width: 250px;
   padding-top: 30px;
 }
 
@@ -134,8 +141,14 @@ img {
 
 .quote-container {
   display:flex;
-  width:430px;
+  width:500px;
   flex-direction: column;
+}
+
+.quote {
+  font-weight:lighter;
+  font-size:18px;
+  color:#1f2937;
 }
 
 .quoter {
@@ -155,7 +168,7 @@ img {
 .sign-up-block {
   display:flex;
   flex-direction:row;
-  gap:14px;
+  gap:20%;
   background-color:#3882f6;
   height: 100px;
   width: 650px;
@@ -175,7 +188,6 @@ img {
   border-color:white;
   height: 30px;
   color:white;
-  font-family: 'Roboto', sans-serif;
 }
 
 .section-four-text {
