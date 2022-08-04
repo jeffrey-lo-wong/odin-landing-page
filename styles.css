@@ -5,7 +5,10 @@ body {
   flex: 1 1 0px;
 }
 
-
+.first-section {
+  background-color: red;
+  height: 300px;
+}
 
 header {
   display:flex;
@@ -22,7 +25,7 @@ header {
 
 .header-logo {
   justify-self:flex-start;
-  margin-left: 140px;
+  margin-left: 15%;
   margin-top:-5px;
 }
 
@@ -39,50 +42,113 @@ ul {
   justify-items:right;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.first-section {
-  background-color: red;
-  height: 250px;
+.sign-up {
+  display:flex;
+  justify-content:center;
+  align-items: center;
 }
 
+.first-text {
+  width:300px;
+  margin-right:10%;
+}
+
+img {
+  height:160px;
+  width: 30%;
+  padding-top: 30px;
+}
+
+button {
+  display:block;
+  background-color:blue;
+  border-radius: 10px;
+  width:100px;
+  height: 30px;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.second-heading {
+  display:flex;
+  justify-content: center;
+  padding-top:7px;
+}
+
+.box-container {
+  display:flex;
+  justify-content:center;
+}
+
+.box-section {
+  display:flex;
+  flex-direction:column;
+  width: 100px;
+  text-align:center;
+  font-family: 'Roboto', sans-serif;
+  font-size:11px;
+}
+
+.boxes {
+  display:flex;
+  align-content:center;
+  justify-content: space-between;
+  width:500px;
+  flex-direction:row;
+  padding-top:8px;
+}
+
+.box {
+  display:flex;
+  border: solid;
+  border-color: blue;
+  border-radius: 8px;
+  border-width: 1px;
+  height:100px;
+  width:100px;
+  gap: 15px;
+  margin-right:5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .second-section {
-  background-color: blue;
-  height: 230px;
+  background-color: white;
+  height: 300px;
 }
 
 .third-section {
