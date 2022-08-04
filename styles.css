@@ -110,7 +110,25 @@ button {
   margin-right:5%;
 }
 
+.third-section {
+  display:flex;
+  background-color: green;
+  height: 220px;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
 
+.quote-container {
+  display:flex;
+  width:430px;
+  flex-direction: column;
+}
+
+.quoter {
+  display:flex; 
+  align-self: flex-end;
+}
 
 
 
@@ -151,10 +169,7 @@ button {
   height: 300px;
 }
 
-.third-section {
-  background-color: green;
-  height: 220px;
-}
+
 
 .fourth-section {
   background-color: indigo;
