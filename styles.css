@@ -64,7 +64,7 @@ a {
   width:300px;
 }
 
-img {
+.landing-page-image {
   height: auto;
   width: 250px;
   padding-top: 30px;
@@ -119,8 +119,6 @@ img {
 
 .box {
   display:flex;
-  border: solid;
-  border-color: blue;
   border-radius: 8px;
   border-width: 1px;
   height:100px;
