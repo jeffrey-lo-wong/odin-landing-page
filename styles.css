@@ -3,11 +3,15 @@ body {
   display:flex;
   flex-direction:column;
   flex: 1 1 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .first-section {
-  background-color: red;
+  background-color: #1f2937;
   height: 300px;
+  color:white;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -59,14 +63,22 @@ img {
   padding-top: 30px;
 }
 
-button {
+.header-button {
   display:block;
-  background-color:blue;
+  background-color:#3882f6;
+  border:none;
+  border-width:1px;
   border-radius: 10px;
   width:100px;
   height: 30px;
   color:white;
   font-family: 'Roboto', sans-serif;
+  margin-top: 8px;
+}
+
+.second-section {
+  background-color: white;
+  height: 300px;
 }
 
 .second-heading {
@@ -112,11 +124,12 @@ button {
 
 .third-section {
   display:flex;
-  background-color: green;
+  background-color: #e5e7eb;
   height: 220px;
   justify-content: center;
   align-items: center;
   flex-direction:column;
+  font-family: 'Roboto', sans-serif;
 }
 
 .quote-container {
@@ -128,55 +141,89 @@ button {
 .quoter {
   display:flex; 
   align-self: flex-end;
+  font-family: 'Roboto', sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.second-section {
-  background-color: white;
-  height: 300px;
-}
-
-
 
 .fourth-section {
-  background-color: indigo;
-  height: 200px;
+  background-color: white;
+  height: 250px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.fifth-section {
-  background-color: yellow;
-  height: 60px;
+.sign-up-block {
+  display:flex;
+  flex-direction:row;
+  gap:14px;
+  background-color:#3882f6;
+  height: 100px;
+  width: 650px;
+  justify-content:center;
+  align-items: center;
+  border-radius: 8px;
 }
+
+.second-button {
+  height:30px;
+  width:110px;
+  justify-content: center;
+  background-color:#3882f6;
+  border: solid;
+  border-width:1px;
+  border-radius: 10px;
+  border-color:white;
+  height: 30px;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-four-text {
+  color:white;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.fifth-section {
+  background-color: #1f2937;
+  color:white;
+  height: 60px;
+  font-family: 'Roboto', sans-serif;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
